@@ -1,0 +1,36 @@
+header{
+   
+    position: fixed;
+    z-index: 1000;
+    background:linear-gradient(280deg,#818181 -1.98%,#212121 99.55%);
+    
+    height: 9vh;
+     
+}#contain{
+    padding: 1.1rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}.icon1{
+    margin-top: -1vh;
+    width: 6vh;
+    height: 8vh;
+    color: white;
+}
+#balise{
+    width: 15vh;
+    height: 5vh;
+    background-color:rgba(100, 148, 237, 0.445);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    padding: 1.3vh;
+    font-size: 0.8rem;
+    color: white;
+}

@@ -1,0 +1,83 @@
+
+section {
+  width: 100vw;
+  height: 400vh;
+ position: absolute;
+ top:9vh;
+ background:linear-gradient(280deg,#212121 -1.98%,#212121 99.55%);
+  z-index: -1;
+  
+}.contain-box{
+  display: grid;
+  row-gap: 5vh;
+  grid-template-rows: 2fr 0.1fr 1fr;
+}
+
+h1{
+  color: white;
+  font-size: 2rem;
+  padding-top: 7vh;
+}.people{
+  background-color: rgba(100, 148, 237, 0.445);
+  height: 1vh;
+  width: 21vh;
+}p{
+  color: white;
+  font-size: 7rem;
+ line-height: 1rem;
+}#button-grid{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1vh;
+}.buttonn{
+  border: 1px solid #f4f4f5;
+  color: white;
+  height: 8vh;
+  border-radius: 1.3vh;
+  font-size: 1.2rem;
+}.leftbtn{
+  width: 28vh;
+  margin-left: 0.9vh;
+background: linear-gradient(135deg,#737579 5.02%,#3a3e43 65.55%);
+}.rightbtn{
+  width: 17.3vh;
+  height: 7vh;
+  background: linear-gradient(190deg,#33383e -1.98%,#17181c 99.55%);;
+}
+#image{
+  position: absolute;
+    top: 60vh;
+    left: 10vh;
+  margin: auto;
+  border: solid 1px rgba(100, 148, 237, 0.445);
+  border-radius: 50%;
+  width: 30vh;
+  height: 30vh;
+}.img{
+  margin-left: 2vh;
+  margin-top: 2.5vh;
+  border-radius: 50%;
+  
+  width: 25vh;
+  height: 25vh;
+ background-image: url(../../images/pp.jpeg);
+ background-size: cover;
+}#contain-skiils{
+  background: rgba(100, 148, 237, 0.445);
+  margin: 1.5vh;
+  height: 70vh;
+  margin-top: 40vh;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2vh;
+  column-gap: 2vh;
+  background: linear-gradient(135deg,#737579 5.02%,#3a3e43 65.55%);
+}.grid-child{
+  background: linear-gradient(135deg,#737579 5.02%,#3a3e43 65.55%);
+  width: 20vh;
+  height: 30vh;
+  border-radius: 2vh;
+ 
+}
